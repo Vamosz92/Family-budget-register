@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="Kérem válasszon kategóriát!"/>
+
+    <RadioGroup
+        android:id="@+id/radioGr"
+        android:layout_width="1536dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/btn_lakhatas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lakhatás" />
+
+        <RadioButton
+            android:id="@+id/btn_elelmiszer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Élelmiszer" />
+
+        <RadioButton
+            android:id="@+id/btn_gepjarmu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gépjármű" />
+
+        <RadioButton
+            android:id="@+id/btn_ruhazat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ruházat" />
+
+        <RadioButton
+            android:id="@+id/btn_szorakozas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Szórakozás" />
+
+        <RadioButton
+            android:id="@+id/btn_oktatas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oktatás" />
+
+        <RadioButton
+            android:id="@+id/btn_utazas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Utazás" />
+
+        <RadioButton
+            android:id="@+id/btn_ajandekozas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajándékozás" />
+
+        <RadioButton
+            android:id="@+id/btn_egyeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Egyéb" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_katValaszto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tovább" />
+
+</LinearLayout>
